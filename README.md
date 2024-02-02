@@ -2,7 +2,8 @@
 
 Node Farm is a simple web application that displays information about farm products. It includes an overview page with product cards and a detailed product page.
 
-![Node Farm Preview](preview.png)
+<img src="https://github.com/samuelcardenasg23/node-farm/assets/119268082/e1a8343f-b7cb-4a2a-9a2d-be3638a6418e" alt="node-farm" width="300" height="400"/>
+<img src="https://github.com/samuelcardenasg23/node-farm/assets/119268082/689cc285-2941-43da-961f-322a2b4e011c" alt="node-farm" width="300" height="400"/>
 
 ## Overview
 
