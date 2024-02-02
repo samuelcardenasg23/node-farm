@@ -6,8 +6,6 @@ import { fileURLToPath } from "url";
 import { replaceTemplate } from './modules/replaceTemplate.js';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-//////! SERVER
-
 const data = fs.readFileSync(`${__dirname}/starter/dev-data/data.json`, 'utf-8');
 const dataObj = JSON.parse(data);
 
