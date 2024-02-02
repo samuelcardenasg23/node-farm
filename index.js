@@ -6,34 +6,6 @@ import { fileURLToPath } from "url";
 import { replaceTemplate } from './modules/replaceTemplate.js';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-//////! FILES
-
-// Blocking synchronous way
-// const textIn = fs.readFileSync('./starter/txt/input.txt', 'utf8');
-// console.log(textIn);
-// const textOut = `This is what we know about the avocado: ${textIn}.\nCreated on ${Date.now()}`;
-// fs.writeFileSync('./starter/txt/output.txt', textOut);
-// console.log('File Written');
-
-// Non Blocking asynchronous way
-
-// fs.readFile('./starter/txt/start.txt', 'utf8', (err, data1) => {
-//     if (err) throw err;
-//     fs.readFile(`./starter/txt/${data1}.txt`, 'utf8', (err, data2) => {
-//         if (err) throw err;
-//         console.log(data2);
-//         fs.readFile(`./starter/txt/append.txt`, 'utf8', (err, data3) => {
-//             if (err) throw err;
-//             console.log(data3);
-//             fs.writeFile('./starter/txt/final2.txt', `${data2}\n${data3}`, (err) => {
-//                 console.log('The file has been saved!');
-//             });
-//         });
-//     });
-// });
-
-// console.log('Reading file...');
-
 //////? SERVER
 
 const data = fs.readFileSync(`${__dirname}/starter/dev-data/data.json`, 'utf-8');
