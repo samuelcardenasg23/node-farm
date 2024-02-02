@@ -16,7 +16,6 @@ const tempCard = fs.readFileSync(`${__dirname}/starter/templates/template-card.h
 const tempProduct = fs.readFileSync(`${__dirname}/starter/templates/template-product.html`, 'utf-8');
 
 const slugs = dataObj.map(element => slugify(element.productName, { lower: true }));
-console.log(slugs);
 
 const server = http.createServer((req, res) => {
     const { query, pathname } = url.parse(req.url, true);
